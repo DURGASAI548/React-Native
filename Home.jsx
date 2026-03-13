@@ -2,6 +2,7 @@ import React, { useState,useEffect } from "react";
 import { View,Text } from "react-native";
 import { Button } from "react-native-paper";
 import * as Notification from "expo-notifications"
+// setting Notification handler
 Notification.setNotificationHandler({
   handleNotification: async() => ({
     shouldPlaySound:true,
